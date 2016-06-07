@@ -191,7 +191,7 @@ Prerequisites
 Installation
 ============
 
-It is recommended to use the latest [ngx_openresty bundle](http://openresty.org) directly. At least ngx_openresty 1.4.2.9 is required. And you need to enable LuaJIT when building your ngx_openresty
+It is recommended to use the latest [OpenResty bundle](http://openresty.org) directly. At least OpenResty 1.4.2.9 is required. And you need to enable LuaJIT when building your OpenResty
 bundle by passing the `--with-luajit` option to its `./configure` script. No extra Nginx configuration is required.
 
 If you want to use this library with your own Nginx build (with ngx_lua), then you need to
@@ -268,9 +268,9 @@ Copyright and License
 
 This module is licensed under the BSD license.
 
-Copyright (C) 2014-2015, by Yichun "agentzh" Zhang, CloudFlare Inc.
+Copyright (C) 2014-2016, by Yichun "agentzh" Zhang, CloudFlare Inc.
 
-Copyright (C) 2014-2015, by Shuxin Yang, CloudFlare Inc.
+Copyright (C) 2014-2016, by Shuxin Yang, CloudFlare Inc.
 
 All rights reserved.
 
